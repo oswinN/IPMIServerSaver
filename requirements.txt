@@ -1,0 +1,5 @@
+# HTTP Server and Client
+aiohttp>=3.8.0
+
+# Command-line tools
+argparse>=1.4.0

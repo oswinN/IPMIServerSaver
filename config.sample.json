@@ -1,0 +1,22 @@
+{
+    "proxy_host": "0.0.0.0",
+    "port_mappings": [
+        [8080, 80],
+        [8443, 443],
+        [9000, 8080]
+    ],
+
+    "target_host": "192.168.1.100",
+
+    "ipmi_host": "192.168.1.101",
+    "ipmi_user": "admin",
+    "ipmi_password": "password",
+    "ipmi_path":".\\tests\\mock_ipmitool.py",
+
+    "inactivity_timeout": 3600,
+    "startup_timeout": 300,
+    "check_interval": 30,
+
+    "max_queue_size": 1000,
+    "request_timeout": 60
+}

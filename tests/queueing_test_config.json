@@ -1,0 +1,23 @@
+{
+    "proxy_host": "0.0.0.0",
+    "port_mappings": [
+        [
+            8080,
+            8000
+        ],
+        [
+            8081,
+            8001
+        ]
+    ],
+    "target_host": "127.0.0.1",
+    "ipmi_host": "192.168.100.100",
+    "ipmi_user": "admin",
+    "ipmi_password": "password",
+    "ipmi_path": "D:\\GIT\\nomosServerSaver\\tests\\mock_ipmitool.py",
+    "inactivity_timeout": 60,
+    "startup_timeout": 30,
+    "check_interval": 5,
+    "max_queue_size": 1000,
+    "request_timeout": 60
+}

@@ -1,0 +1,18 @@
+{
+    "proxy_host": "0.0.0.0",
+    "target_host": "192.168.100.100",
+    "port_mappings": [
+        [80, 80]
+    ],
+
+    "ipmi_host": "192.168.100.101",
+    "ipmi_user": "ADMIN",
+    "ipmi_password": "ADMIN",
+    "ipmi_path":".\\ipmitool\\bmc\\ipmitool.exe",
+    "inactivity_timeout": 600,
+    "startup_timeout": 600,
+    "check_interval": 10,
+
+    "max_queue_size": 10000,
+    "request_timeout": 1200
+}
